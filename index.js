@@ -109,6 +109,8 @@ async function run() {
         res.send(result)
       })
 
+      
+
       // admin 
       app.put("/users/admin",async(req,res)=>{
         const user=req.body;
